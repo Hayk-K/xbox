@@ -1,0 +1,26 @@
+.main1 {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    background:  radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);
+    color: white;
+}
+
+.main1__img {
+    margin-top: 72px;
+    margin-bottom: 20px;
+}
+
+.main1__title {
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main1__card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 60px;
+    padding-bottom: 160px;
+}
+
+

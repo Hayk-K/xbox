@@ -1,0 +1,16 @@
+.card1__wrapper{
+    width: 320px;
+    color: #435766;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #8DD83D;
+    transition: transform 250ms;
+}
+
+.card1__wrapper:hover {
+   transform: translateY(-20px);
+} 
+
+.card1__img {
+    width: 318px;
+    height: 180px;
+}

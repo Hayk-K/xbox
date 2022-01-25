@@ -1,0 +1,42 @@
+.carousel_img {
+    width: 100%;
+    height: 644px;
+ }
+
+.Carousel__caption {
+    margin-left: 420px;
+    margin-bottom: 140px;
+    size:  36px;
+    line-height: 42px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.Carousel__buttons {
+    margin-left: 600px;
+    margin-bottom: 160px;
+}
+
+.Carousel__btn1 {
+    width: 136px;
+    height: 38px;
+    border-radius: 4px;
+    background-color: #8DD83D;
+    Size: 16px;
+    line-height: 21px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: none;
+}
+ 
+.Carousel__btn2{
+     width: 137px;
+     height: 38px;
+     border-radius: 4px;
+     background-color:  #373A3C;
+     font-family: Arial, Helvetica, sans-serif;
+     border: none;
+     color: white;
+}
+ 
+ 
