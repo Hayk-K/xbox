@@ -29,6 +29,9 @@ import game21 from "./game-img/game21.jpeg";
 import game22 from "./game-img/game22.png";
 import game23 from "./game-img/game23.jpeg";
 import game24 from "./game-img/game24.jpeg";
+import Error from "./Pages/Error";
+import Login from "./components/Login/Login";
+import Registration from "./components/Registration /Registration ";
 
 function App() {
   const games = [
@@ -228,9 +231,11 @@ function App() {
               />
             }
           ></Route>
+          <Route path="*" element={<Error />}></Route>
+          <Route path="login" element={<Login />}></Route>
+          <Route path="registration" element={<Registration />}></Route>
         </Route>
       </Routes>
-     
     </BrowserRouter>
   );
 }

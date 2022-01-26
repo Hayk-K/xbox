@@ -65,10 +65,10 @@ const Header = ({ value }) => {
         <Dropdown>
           <Dropdown.Toggle id="header__dropdown">My XBOX</Dropdown.Toggle>
           <Dropdown.Menu>
-            <NavLink to="#" className="header__nav">
-              My account
+            <NavLink to="/login" className="header__nav">
+              Login
             </NavLink>
-            <NavLink to="/" className="header__nav">
+            <NavLink to="/registration" className="header__nav">
               Registration
             </NavLink>
           </Dropdown.Menu>
